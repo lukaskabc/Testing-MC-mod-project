@@ -21,38 +21,37 @@
   },
   "artifacts": [
     {
-      "id": "fabric-1.21.1",
+      "id": "fabric-1.20.1",
       "file_glob": "build/libs/*-{version}.jar",
-      "branch": "fabric-1.21.1",
+      "branch": "fabric-1.20.1",
       "release_type": "Beta",
       "loaders": [
         "Fabric"
       ],
       "game_versions": [
-        "1.21.1"
+        "1.20.1"
       ],
       "java_version": "21",
       "dependencies": {}
     },
     {
-      "id": "architectury-forge-fabric-1.20.1",
-      "file_glob": "build/libs/*-{version}.jar",
-      "branch": "architectury/forge-fabric-1.20.1",
-      "loaders": [
-        "Fabric",
-        "Forge"
-      ],
-      "game_versions": [
-        "1.20.1"
-      ],
-      "java_version": "17"
-    },
-    {
-      "id": "neoforge-1.21.1",
-      "file_glob": "build/libs/*-{version}.jar",
-      "branch": "neoforge-1.21.1",
+      "id": "architectury-neoforge-1.21.1",
+      "file_glob": "neoforge/build/libs/*-neoforge-{version}.jar",
+      "branch": "architectury/fabric-neoforge-1.21.1",
       "loaders": [
         "Neoforge"
+      ],
+      "game_versions": [
+        "1.21.1"
+      ],
+      "java_version": "21"
+    },
+    {
+      "id": "architectury-fabric-1.21.1",
+      "file_glob": "fabric/build/libs/*-fabric-{version}.jar",
+      "branch": "architectury/fabric-neoforge-1.21.1",
+      "loaders": [
+        "Fabric"
       ],
       "game_versions": [
         "1.21.1"
