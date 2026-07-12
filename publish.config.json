@@ -1,0 +1,76 @@
+{
+  "client": true,
+  "server": true,
+  "curseforge_enabled": true,
+  "modrinth_enabled": true,
+  "discord_enabled": true,
+  "discord_announce_nightly_builds": true,
+  "curseforge_project_slug": "test-cf-slug",
+  "curseforge_project_id": "123456",
+  "modrinth_project_id": "abc123def",
+  "default_release_type": "Alpha",
+  "discord_webhook": {
+    "discord_branch": "neoforge-26.2",
+    "username": "Release Announcer",
+    "avatar_url": "https://openclipart.org/image/800px/290190",
+    "content": "New version v{version} was released!\n@everyone\n",
+    "thumbnail_url": "https://github.com/lukaskabc/Testing-MC-mod-project/blob/fabric-1.21.1/src/main/resources/assets/template-mod/icon.png?raw=true",
+    "embed_color": "#e06800",
+    "nightly_content": "Nightly build available!\nv{version}\n@everyone\n",
+    "nightly_link_title": "Available on GitHub after login"
+  },
+  "artifacts": [
+    {
+      "id": "fabric-1.21.1",
+      "file_glob": "build/libs/*-{version}.jar",
+      "branch": "fabric-1.21.1",
+      "release_type": "Beta",
+      "loaders": [
+        "Fabric"
+      ],
+      "game_versions": [
+        "1.21.1"
+      ],
+      "java_version": "21",
+      "dependencies": {}
+    },
+    {
+      "id": "architectury-forge-fabric-1.20.1",
+      "file_glob": "build/libs/*-{version}.jar",
+      "branch": "architectury/forge-fabric-1.20.1",
+      "loaders": [
+        "Fabric",
+        "Forge"
+      ],
+      "game_versions": [
+        "1.20.1"
+      ],
+      "java_version": "17"
+    },
+    {
+      "id": "neoforge-1.21.1",
+      "file_glob": "build/libs/*-{version}.jar",
+      "branch": "neoforge-1.21.1",
+      "loaders": [
+        "Neoforge"
+      ],
+      "game_versions": [
+        "1.21.1"
+      ],
+      "java_version": "21"
+    },
+    {
+      "id": "neoforge-26.2",
+      "file_glob": "build/libs/*-{version}.jar",
+      "branch": "neoforge-26.2",
+      "loaders": [
+        "Neoforge"
+      ],
+      "game_versions": [
+        "26.2"
+      ],
+      "java_version": "25"
+    }
+  ],
+  "common_dependencies": {}
+}
