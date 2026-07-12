@@ -35,18 +35,6 @@
       "dependencies": {}
     },
     {
-      "id": "architectury-neoforge-1.21.1",
-      "file_glob": "neoforge/build/libs/*-neoforge-{version}.jar",
-      "branch": "architectury/fabric-neoforge-1.21.1",
-      "loaders": [
-        "Neoforge"
-      ],
-      "game_versions": [
-        "1.21.1"
-      ],
-      "java_version": "21"
-    },
-    {
       "id": "architectury-fabric-1.21.1",
       "file_glob": "fabric/build/libs/*-fabric-{version}.jar",
       "branch": "architectury/fabric-neoforge-1.21.1",
