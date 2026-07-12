@@ -22,7 +22,7 @@
   "artifacts": [
     {
       "id": "fabric-1.20.1",
-      "file_glob": "build/libs/*-{version}.jar",
+      "file_glob": "build/libs/*-1.20.1-fabric-{version}.jar",
       "branch": "fabric-1.20.1",
       "release_type": "Beta",
       "loaders": [
@@ -36,7 +36,7 @@
     },
     {
       "id": "architectury-fabric-1.21.1",
-      "file_glob": "fabric/build/libs/*-fabric-{version}.jar",
+      "file_glob": "fabric/build/libs/*-1.21.1-fabric-{version}.jar",
       "branch": "architectury/fabric-neoforge-1.21.1",
       "loaders": [
         "Fabric"
@@ -48,7 +48,7 @@
     },
     {
       "id": "neoforge-26.2",
-      "file_glob": "build/libs/*-{version}.jar",
+      "file_glob": "build/libs/*-neoforge-{version}.jar",
       "branch": "neoforge-26.2",
       "loaders": [
         "Neoforge"
