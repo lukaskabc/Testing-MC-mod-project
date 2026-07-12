@@ -29,7 +29,7 @@ jobs:
       release_tag: ${{ github.event.release.tag_name }}
 
       # This is testing project, RUNNING ALWAYS AS DRY RUN
-      dry_run: 'true'
+      dry_run: true
 
     secrets:
       CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
