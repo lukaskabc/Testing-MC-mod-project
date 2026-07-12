@@ -10,7 +10,7 @@ version = providers.gradleProperty("mod_version").get()
 group = providers.gradleProperty("maven_group").get()
 
 base {
-	archivesName = "${project.name}-fabric-${providers.gradleProperty("minecraft_version").get()}"
+	archivesName = "${project.name}-${providers.gradleProperty("minecraft_version").get()}-fabric"
 }
 
 repositories {
