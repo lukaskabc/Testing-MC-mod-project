@@ -12,10 +12,9 @@
   "discord_webhook": {
     "username": "Release Announcer",
     "avatar_url": "https://openclipart.org/image/800px/290190",
-    "content": "@everyone",
-    "embed": {
-      "title": "v{version}",
-      "description": "{changelog}",
+    "release_content": "@everyone",
+    "release_embed": {
+      "description": "#v{version}\n{changelog}",
       "color": "#7200d6",
       "footer": {
         "text": "Awesome footer text",
@@ -25,8 +24,7 @@
         "url": "https://raw.githubusercontent.com/lukaskabc/Testing-MC-mod-project/refs/heads/fabric-1.20.1/src/main/resources/assets/template-mod/icon.png"
       }
     },
-    "nightly_content": "@everyone",
-    "nightly_link_title": "Available on GitHub after login"
+    "nightly_content": "@everyone"
   },
   "artifacts": {
     "fabric-1.20.1": {
