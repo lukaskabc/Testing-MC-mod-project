@@ -14,7 +14,7 @@
     "avatar_url": "https://openclipart.org/image/800px/290190",
     "release_content": "@everyone",
     "release_embed": {
-      "description": "#v{version}\n{changelog}",
+      "description": "# v{version}\n## Changelog\n{changelog}",
       "color": "#7200d6",
       "footer": {
         "text": "Awesome footer text",
