@@ -12,20 +12,20 @@
   "discord_webhook": {
     "username": "Release Announcer",
     "avatar_url": "https://openclipart.org/image/800px/290190",
-    "content": "Awesome configured message content",
+    "content": "@everyone",
     "embed": {
       "title": "v{version}",
-      "description": "@everyone\n{changelog}",
+      "description": "{changelog}",
       "color": "#7200d6",
       "footer": {
         "text": "Awesome footer text",
-        "icon_url": "https://github.com/lukaskabc/Testing-MC-mod-project/blob/fabric-1.21.1/src/main/resources/assets/template-mod/icon.png?raw=true"
+        "icon_url": "https://raw.githubusercontent.com/lukaskabc/Testing-MC-mod-project/refs/heads/fabric-1.20.1/src/main/resources/assets/template-mod/icon.png"
       },
       "thumbnail": {
-        "url": "https://github.com/lukaskabc/Testing-MC-mod-project/blob/fabric-1.21.1/src/main/resources/assets/template-mod/icon.png?raw=true"
+        "url": "https://raw.githubusercontent.com/lukaskabc/Testing-MC-mod-project/refs/heads/fabric-1.20.1/src/main/resources/assets/template-mod/icon.png"
       }
     },
-    "nightly_content": "Nightly build available!\nv{version}\n@everyone\n",
+    "nightly_content": "@everyone",
     "nightly_link_title": "Available on GitHub after login"
   },
   "artifacts": {
