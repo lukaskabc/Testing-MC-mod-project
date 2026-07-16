@@ -87,11 +87,11 @@ jobs:
     # Using a specific version prevents breaking your workflow when a breaking change is introduced
     # If a specific commit hash is used, improves security
     # The reference must be changed at TWO places                                       ↓ change this
-    uses: lukaskabc/Minecraft-Mod-Publish-Workflows/.github/workflows/nightly-build.yml@main
+    uses: lukaskabc/Minecraft-Mod-Publish-Workflows/.github/workflows/nightly-build.yml@development
     with:
       # CHANGE THIS REFERENCE AS WELL
       # This value must match the reference used in the "uses:" parameter (the value after "@")
-      workflow_ref: "main"
+      workflow_ref: "development"
       max_file_size: 10
     secrets:
       DISCORD_NIGHTLY_WEBHOOK_URL: ${{ secrets.DISCORD_NIGHTLY_WEBHOOK_URL }}
