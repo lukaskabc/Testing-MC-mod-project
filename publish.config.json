@@ -51,17 +51,6 @@
       ],
       "java_version": "21"
     },
-    "architectury-neoforge-1.21.1": {
-      "file_glob": "neoforge/build/libs/*-1.21.1-neoforge-{version}.jar",
-      "branch": "architectury/fabric-neoforge-1.21.1",
-      "loaders": [
-        "Neoforge"
-      ],
-      "game_versions": [
-        "1.21.1"
-      ],
-      "java_version": "21"
-    },
     "neoforge-26.2": {
       "file_glob": "build/libs/*-neoforge-{version}.jar",
       "branch": "neoforge-26.2",
